@@ -184,7 +184,6 @@ clears the global high-score table.
 ├── saves/              Player progress, unlocks, scores, and settings
 ├── src/                Game source and header files
 ├── build.bat           Windows build-and-run script
-├── raylib_LICENSE.txt  raylib license
 └── run.sh              macOS build-and-run script
 ```
 
@@ -254,14 +253,3 @@ working directory.
 Check that Sound is enabled in Settings and that the operating system has an
 active audio output device. Music and sound-effect files are loaded from
 `assets/sounds/`.
-
-## Third-party notices
-
-The bundled Windows headers and libraries are raylib 5.5. Its license is in
-`raylib_LICENSE.txt`. Font license notices are stored beside the fonts:
-
-- `assets/fonts/OFL-Cinzel.txt`
-- `assets/fonts/OFL-CinzelDecorative.txt`
-
-No separate license for the remaining project code or assets is declared in
-this repository.
